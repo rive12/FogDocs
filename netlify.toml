@@ -90,6 +90,9 @@ publish = ".next"
   TERM = "xterm"
   NEXT_PRIVATE_TARGET = "server"
 
+[[plugins]]
+package = "netlify-plugin-cypress"
+
   [plugins.inputs]
   record = true
   group = "Testing Built Site"
